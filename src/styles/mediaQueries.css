@@ -1,0 +1,32 @@
+@media (min-width: 769px) {
+  .container--custom {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  body {
+    background-color: #f8f9fa;
+  }
+
+  .container--custom_child {
+    box-shadow: 5px 10px 18px #888888;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .header__heading2 {
+    font-size: 1.59rem;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header__heading2 {
+    font-size: 1.03rem;
+  }
+}
